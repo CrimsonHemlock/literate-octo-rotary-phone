@@ -14,9 +14,10 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 #rpm-ostree install screen
-rpm-ostree install btop
+rpm-ostree install btop wireguard-tools
 rpm-ostree install distrobox virt-manager
 rpm-ostree install dconf-editor gnome-tweaks guake gnome-console
+rpm-ostree install gnome-shell-extension-appindicator gnome-shell-extension-blur-my-shell gnome-shell-extension-caffeine gnome-shell-extension-dash-to-dock
 rpm-ostree install zsh zsh-autosuggestions zsh-syntax-highlighting
 
 # this would install a package from rpmfusion
