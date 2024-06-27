@@ -19,6 +19,7 @@ rpm-ostree install distrobox virt-manager
 rpm-ostree install dconf-editor gnome-tweaks guake gnome-console
 rpm-ostree install gnome-shell-extension-appindicator gnome-shell-extension-blur-my-shell gnome-shell-extension-caffeine gnome-shell-extension-dash-to-dock
 rpm-ostree install zsh zsh-autosuggestions zsh-syntax-highlighting
+rpm-ostree uninstall gnome-tour
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
