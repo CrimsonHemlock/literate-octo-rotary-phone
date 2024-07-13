@@ -18,7 +18,7 @@ rpm-ostree install btop wireguard-tools
 rpm-ostree install distrobox virt-manager
 rpm-ostree install dconf-editor gnome-tweaks guake gnome-console
 rpm-ostree install gnome-shell-extension-appindicator gnome-shell-extension-blur-my-shell gnome-shell-extension-caffeine gnome-shell-extension-dash-to-dock
-rpm-ostree install zsh zsh-autosuggestions zsh-syntax-highlighting
+rpm-ostree install vim bat zsh zsh-autosuggestions zsh-syntax-highlighting
 rpm-ostree install https://launchpad.net/veracrypt/trunk/1.26.7/+download/veracrypt-1.26.7-CentOS-8-x86_64.rpm
 
 # Package removal
